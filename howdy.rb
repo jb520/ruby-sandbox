@@ -16,3 +16,8 @@ require "active_support/all"
 -134.ordinalize # => "-134th"
 
 # messing around with gets
+
+pp "What's your name?"
+their_name = gets.chomp
+
+puts "Hello, #{their_name}!"
